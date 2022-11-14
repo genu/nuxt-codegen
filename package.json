@@ -4,6 +4,14 @@
   "author": "Eugen Istoc",
   "version": "1.0.0",
   "license": "MIT",
+  "homepage": "https://github.com/genu/nuxt-codegen",
+  "bugs": {
+    "url": "https://github.com/genu/nuxt-codegen/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/genu/nuxt-codegen"
+  },
   "type": "module",
   "exports": {
     ".": {
