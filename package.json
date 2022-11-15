@@ -33,6 +33,7 @@
     "test": "echo no tests"
   },
   "dependencies": {
+    "@changesets/cli": "^2.25.2",
     "@graphql-codegen/cli": "2.13.12",
     "@nuxt/kit": "^3.0.0-rc.13"
   },
