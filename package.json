@@ -29,11 +29,11 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "echo no tests"
   },
   "dependencies": {
     "@graphql-codegen/cli": "2.13.12",
-    "@graphql-codegen/plugin-helpers": "2.7.2",
     "@nuxt/kit": "^3.0.0-rc.13"
   },
   "devDependencies": {

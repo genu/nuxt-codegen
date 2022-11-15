@@ -71,11 +71,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build
-        run: pnpm prepack
-
       - name: Prepare
         run: pnpm dev:prepare
+
+      - name: Build
+        run: pnpm prepack
 
       - name: Lint
         run: pnpm lint
