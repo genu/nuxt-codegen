@@ -24,24 +24,24 @@ jobs:
           path: '**/dist'
           key: build-artifacts-${{ github.sha }}
 
-  release:
-    name: Release
-    runs-on: ubuntu-latest
-    steps:      
-      - name: Checkout Repo
-        uses: actions/checkout@v2
+  # release:
+  #   name: Release
+  #   runs-on: ubuntu-latest
+  #   steps:      
+  #     - name: Checkout Repo
+  #       uses: actions/checkout@v2
 
-      - name: Prepare
-        uses: ./.github/actions/prepare
+  #     - name: Prepare
+  #       uses: ./.github/actions/prepare
 
-      - name: Create Release Pull Request or Publish to npm
-        id: changesets
-        uses: changesets/action@v1
-        with:
-          publish: pnpm release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  #     - name: Create Release Pull Request or Publish to npm
+  #       id: changesets
+  #       uses: changesets/action@v1
+  #       with:
+  #         publish: pnpm release
+  #       env:
+  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  #         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       # - name: Send a Slack notification if a publish happens
       #   if: steps.changesets.outputs.published == 'true'
