@@ -36,11 +36,14 @@ runs:
           ${{ runner.os }}-pnpm-store-
 
     - name: Install dependencies
+      shell: bash
       run: pnpm install
 
     - name: Prepare
+      shell: bash
       run: pnpm dev:prepare
       
     - name: Build
+      shell: bash
       if: inputs.build == 'true'
       run: pnpm run prepack      
