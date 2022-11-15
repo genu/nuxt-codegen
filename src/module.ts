@@ -48,8 +48,6 @@ export default defineNuxtModule<ModuleOptions>({
       )
 
       if (!modifiedWatchedExtension) {
-        logger.info('NuxtCodegen: No changes - Skipping')
-
         return
       }
 
