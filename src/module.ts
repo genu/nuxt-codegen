@@ -1,4 +1,7 @@
-import { defineNuxtModule, logger } from '@nuxt/kit'
+import { defineNuxtModule } from '@nuxt/kit'
+import consola from 'consola'
+
+const logger = consola.withScope('nuxt-codegen')
 
 export interface ModuleOptions {
   configFile: string;
