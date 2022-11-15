@@ -1,10 +1,9 @@
 import { defineNuxtModule, logger } from '@nuxt/kit'
-import { generate, loadCodegenConfig } from '@graphql-codegen/cli'
 
 export interface ModuleOptions {
-  configFile: string
-  devOnly: boolean
-  extensions: string[]
+  configFile: string;
+  devOnly: boolean;
+  extensions: string[];
 }
 
 export default defineNuxtModule<ModuleOptions>({
@@ -17,17 +16,19 @@ export default defineNuxtModule<ModuleOptions>({
     devOnly: true,
     extensions: ['.graphql', '.gql']
   },
-  async setup (options, nuxt) {
+  setup (options, nuxt) {
     if (options.devOnly && !nuxt.options.dev) {
       logger.info('NuxtCodegen: Skipping Codegen')
       return
     }
 
-    const { config } = await loadCodegenConfig({
-      configFilePath: options.configFile
-    })
-
-    nuxt.hook('build:before', async () => {
+    nuxt.hook('build:done', async () => {
+      const { generate, loadCodegenConfig } = await import(
+        '@graphql-codegen/cli'
+      )
+      const { config } = await loadCodegenConfig({
+        configFilePath: options.configFile
+      })
       const start = Date.now()
 
       await generate({
@@ -39,7 +40,9 @@ export default defineNuxtModule<ModuleOptions>({
     })
 
     nuxt.hook('builder:watch', (_event, path) => {
-      const modifiedWatchedExtension = options.extensions.some(extension => path.endsWith(extension))
+      const modifiedWatchedExtension = options.extensions.some(extension =>
+        path.endsWith(extension)
+      )
 
       if (!modifiedWatchedExtension) {
         logger.info('NuxtCodegen: No changes - Skipping')
