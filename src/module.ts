@@ -1,5 +1,6 @@
 import { defineNuxtModule } from '@nuxt/kit'
 import consola from 'consola'
+import { basename } from 'pathe'
 
 const logger = consola.withScope('nuxt-codegen')
 
@@ -43,11 +44,12 @@ export default defineNuxtModule<ModuleOptions>({
     })
 
     nuxt.hook('builder:watch', (_event, path) => {
+      const modifiedConfig = basename(path) === basename(options.configFile)
       const modifiedWatchedExtension = options.extensions.some(extension =>
         path.endsWith(extension)
       )
 
-      if (!modifiedWatchedExtension) {
+      if (!modifiedWatchedExtension && !modifiedConfig) {
         return
       }
 

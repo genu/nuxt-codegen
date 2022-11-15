@@ -1,0 +1,12 @@
+type Query {
+  hello: String!
+}
+
+query getThings {
+    things: {
+        __typename
+        a
+        b
+        c
+    }
+}

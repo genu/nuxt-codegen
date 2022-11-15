@@ -2,13 +2,13 @@ import type { CodegenConfig } from '@graphql-codegen/cli'
 
 const config: CodegenConfig = {
   overwrite: true,
-  schema: process.env.GRAPHQL_URL,
-  documents: 'graphql/**/*.graphql',
+  schema: './playgroud/schema.graphql',
+  documents: '**/graphql/**/*.graphql',
   generates: {
-    'graphql/client.ts': {
+    'playground/generated/client.ts': {
       plugins: ['typescript', 'typescript-operations', 'typescript-vue-urql']
     },
-    'graphql/schema-introspection.ts': {
+    'playground/generated/schema-introspection.ts': {
       plugins: ['urql-introspection']
     }
   }

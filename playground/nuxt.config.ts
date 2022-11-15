@@ -3,5 +3,7 @@ import NuxtCodegen from '..'
 
 export default defineNuxtConfig({
   modules: [NuxtCodegen],
-  nuxtCodegen: {}
+  nuxtCodegen: {
+    configFile: './playground/codegen.ts'
+  }
 })
