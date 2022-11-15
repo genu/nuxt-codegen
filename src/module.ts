@@ -53,7 +53,7 @@ export default defineNuxtModule<ModuleOptions>({
         return
       }
 
-      nuxt.callHook('build:before')
+      nuxt.callHook('build:done')
     })
   }
 })
