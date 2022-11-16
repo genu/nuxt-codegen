@@ -2,7 +2,7 @@
   "name": "nuxt-codegen",
   "description": "GraphQL Code Generator module for Nuxt 3",
   "author": "Eugen Istoc",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   "homepage": "https://github.com/genu/nuxt-codegen",
   "bugs": {
@@ -35,7 +35,7 @@
   "dependencies": {
     "@changesets/cli": "^2.25.2",
     "@graphql-codegen/cli": "2.13.12",
-    "@nuxt/kit": "^3.0.0-rc.13"
+    "@nuxt/kit": "^3.0.0-rc.14"
   },
   "devDependencies": {
     "@graphql-codegen/typescript": "2.8.2",
@@ -43,9 +43,9 @@
     "@graphql-codegen/typescript-vue-urql": "2.3.6",
     "@graphql-codegen/urql-introspection": "2.2.1",
     "@nuxt/module-builder": "^0.2.0",
-    "@nuxt/schema": "^3.0.0-rc.13",
+    "@nuxt/schema": "^3.0.0-rc.14",
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
     "eslint": "^8.26.0",
-    "nuxt": "^3.0.0-rc.13"
+    "nuxt": "^3.0.0-rc.14"
   }
 }
