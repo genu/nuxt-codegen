@@ -1,6 +1,5 @@
 # `nuxt-codegen`
-
-> [GraphQL Code Generator](https://www.graphql-code-generator.com/) module for Nuxt3
+This module integrates [GraphQL Code Generator](https://www.graphql-code-generator.com/) in your development flow.
 
 ## Quick setup
 1. Add `nuxt-codegen` dependency to your project
