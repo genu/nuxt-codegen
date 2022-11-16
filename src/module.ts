@@ -40,8 +40,8 @@ export default defineNuxtModule<ModuleOptions>({
       logger.info('NuxtCodegen: Running GraphQl Code Generator')
 
       await generate({
-        ...config,
-        silent: true
+        silent: true,
+        ...config
       })
       const time = Date.now() - start
 
