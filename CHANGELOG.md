@@ -1,5 +1,11 @@
 # nuxt-codegen
 
+## 1.3.0
+
+### Minor Changes
+
+- Update to Nuxt 3.0.0 Stable
+
 ## 1.2.2
 
 ### Patch Changes
