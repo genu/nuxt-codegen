@@ -1,5 +1,11 @@
 # nuxt-codegen
 
+## 1.2.1
+
+### Patch Changes
+
+- Set compaptitiblity to 3.0.x to include RC releases
+
 ## 1.2.0
 
 ### Minor Changes

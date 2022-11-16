@@ -2,7 +2,7 @@
   "name": "nuxt-codegen",
   "description": "GraphQL Code Generator module for Nuxt 3",
   "author": "Eugen Istoc",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "MIT",
   "homepage": "https://github.com/genu/nuxt-codegen",
   "bugs": {
