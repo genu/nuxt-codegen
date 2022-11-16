@@ -37,13 +37,15 @@ export default defineNuxtModule<ModuleOptions>({
         configFilePath: options.configFile
       })
       const start = Date.now()
+      logger.info('NuxtCodegen: Running GraphQl Code Generator')
 
       await generate({
-        ...config
+        ...config,
+        silent: true
       })
       const time = Date.now() - start
 
-      logger.success(`NuxtCodegen: Finished in ${time}ms `)
+      logger.success(`NuxtCodegen: Finished in ${(time / 1000).toPrecision(2)} seconds `)
     })
 
     nuxt.hook('builder:watch', (_event, path) => {

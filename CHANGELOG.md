@@ -1,5 +1,11 @@
 # nuxt-codegen
 
+## 1.2.2
+
+### Patch Changes
+
+- Run codegen in silent mode
+
 ## 1.2.1
 
 ### Patch Changes
