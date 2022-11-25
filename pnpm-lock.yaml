@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@changesets/cli': ^2.25.2
-  '@graphql-codegen/cli': 2.14.0
+  '@graphql-codegen/cli': 2.14.1
   '@graphql-codegen/typescript': 2.8.2
   '@graphql-codegen/typescript-operations': 2.5.7
   '@graphql-codegen/typescript-vue-urql': 2.3.6
@@ -16,7 +16,7 @@ specifiers:
 
 dependencies:
   '@changesets/cli': 2.25.2
-  '@graphql-codegen/cli': 2.14.0_jot4ta2s7uzttbabixojc76u3e
+  '@graphql-codegen/cli': 2.14.1_jot4ta2s7uzttbabixojc76u3e
   '@nuxt/kit': 3.0.0_rollup@2.79.1
 
 devDependencies:
@@ -877,8 +877,8 @@ packages:
       - supports-color
     dev: true
 
-  /@graphql-codegen/cli/2.14.0_jot4ta2s7uzttbabixojc76u3e:
-    resolution: {integrity: sha512-tiG8iJd2jklazcAkPC1yZ4THQZOBazHi4L8qtH212PydFfpZ3G+PQyilf9sOMqT6Fq/b6yirHvVi6Jy2b1smEw==}
+  /@graphql-codegen/cli/2.14.1_jot4ta2s7uzttbabixojc76u3e:
+    resolution: {integrity: sha512-Z9EiX8yJ5xtNdw/1ApV8uKx6UjCNl/D28zTHU8Fa7BcCdi3ilGOKSiWCNZaH1mpwKr5EfX18kme2bIqKmohv/w==}
     hasBin: true
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
@@ -913,7 +913,6 @@ packages:
       json-to-pretty-yaml: 1.2.2
       listr2: 4.0.5
       log-symbols: 4.1.0
-      mkdirp: 1.0.4
       shell-quote: 1.7.4
       string-env-interpolation: 1.0.1
       ts-log: 2.2.5
@@ -6091,6 +6090,7 @@ packages:
     resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
     engines: {node: '>=10'}
     hasBin: true
+    dev: true
 
   /mkdist/1.0.0_typescript@4.9.3:
     resolution: {integrity: sha512-aJke+yvXwwcrOh+3KfAdDgDA+MPe7c+R8hQ7IPfp0gqL1/WPZZUS9rwS6CNjdwDJmHm6DTMA9KwX1FNjZG3I1Q==}
