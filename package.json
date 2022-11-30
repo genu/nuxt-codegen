@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@changesets/cli": "^2.25.2",
-    "@graphql-codegen/cli": "2.14.1",
+    "@graphql-codegen/cli": "2.15.0",
     "@nuxt/kit": "^3.0.0"
   },
   "devDependencies": {
