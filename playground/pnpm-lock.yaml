@@ -13,7 +13,7 @@ dependencies:
 devDependencies:
   '@graphql-codegen/typescript': 2.8.6_graphql@16.6.0
   '@graphql-codegen/typescript-operations': 2.5.11_graphql@16.6.0
-  '@graphql-codegen/typescript-vue-urql': 2.3.6_sy4knu3obj4ys7pjcqbyfxmqle
+  '@graphql-codegen/typescript-vue-urql': 2.3.6_graphql@16.6.0
   '@graphql-codegen/urql-introspection': 2.2.1_graphql@16.6.0
 
 packages:
@@ -84,7 +84,7 @@ packages:
       convert-source-map: 1.9.0
       debug: 4.3.4
       gensync: 1.0.0-beta.2
-      json5: 2.2.2
+      json5: 2.2.3
       semver: 6.3.0
     transitivePeerDependencies:
       - supports-color
@@ -667,7 +667,7 @@ packages:
       - supports-color
     dev: true
 
-  /@graphql-codegen/typescript-vue-urql/2.3.6_sy4knu3obj4ys7pjcqbyfxmqle:
+  /@graphql-codegen/typescript-vue-urql/2.3.6_graphql@16.6.0:
     resolution: {integrity: sha512-TjTEE0LGfnTGkohDq1x0z+9Iat5/1ffoDUnfaMWuMfr67FrZmjIBWGWVeRyBbZyZQ3+2AesbLsmNc26jpLT3OA==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
@@ -678,7 +678,6 @@ packages:
       auto-bind: 4.0.0
       change-case-all: 1.0.14
       graphql: 16.6.0
-      graphql-tag: 2.12.6_graphql@16.6.0
       tslib: 2.4.1
     transitivePeerDependencies:
       - encoding
@@ -1305,8 +1304,8 @@ packages:
     hasBin: true
     dev: true
 
-  /json5/2.2.2:
-    resolution: {integrity: sha512-46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==}
+  /json5/2.2.3:
+    resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
     engines: {node: '>=6'}
     hasBin: true
     dev: true
