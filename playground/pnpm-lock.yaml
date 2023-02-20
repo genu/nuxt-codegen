@@ -935,8 +935,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001451
-      electron-to-chromium: 1.4.295
+      caniuse-lite: 1.0.30001456
+      electron-to-chromium: 1.4.302
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
     dev: true
@@ -959,8 +959,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001451:
-    resolution: {integrity: sha512-XY7UbUpGRatZzoRft//5xOa69/1iGJRBlrieH6QYrkKLIFn3m7OVEJ81dSrKoy2BnKsdbX5cLrOispZNYo9v2w==}
+  /caniuse-lite/1.0.30001456:
+    resolution: {integrity: sha512-XFHJY5dUgmpMV25UqaD4kVq2LsiaU5rS8fb0f17pCoXQiQslzmFgnfOxfvo1bTpTqf7dwG/N/05CnLCnOEKmzA==}
     dev: true
 
   /capital-case/1.0.4:
@@ -1122,8 +1122,8 @@ packages:
       tslib: 2.4.1
     dev: true
 
-  /electron-to-chromium/1.4.295:
-    resolution: {integrity: sha512-lEO94zqf1bDA3aepxwnWoHUjA8sZ+2owgcSZjYQy0+uOSEclJX0VieZC+r+wLpSxUHRd6gG32znTWmr+5iGzFw==}
+  /electron-to-chromium/1.4.302:
+    resolution: {integrity: sha512-Uk7C+7aPBryUR1Fwvk9VmipBcN9fVsqBO57jV2ZjTm+IZ6BMNqu7EDVEg2HxCNufk6QcWlFsBkhQyQroB2VWKw==}
     dev: true
 
   /emoji-regex/8.0.0:
