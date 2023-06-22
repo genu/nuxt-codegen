@@ -11,6 +11,6 @@
     "@graphql-codegen/urql-introspection": "2.2.1"
   },
   "dependencies": {
-    "graphql": "16.7.0"
+    "graphql": "16.7.1"
   }
 }
