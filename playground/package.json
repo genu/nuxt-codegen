@@ -5,10 +5,10 @@
     "codegen": "graphql-codegen --config codegen.ts"
   },
   "devDependencies": {
-    "@graphql-codegen/typescript": "3.0.4",
-    "@graphql-codegen/typescript-operations": "3.0.4",
-    "@graphql-codegen/typescript-vue-urql": "2.3.6",
-    "@graphql-codegen/urql-introspection": "2.2.1"
+    "@graphql-codegen/typescript": "5.0.0",
+    "@graphql-codegen/typescript-operations": "5.0.0",
+    "@graphql-codegen/typescript-vue-urql": "3.2.1",
+    "@graphql-codegen/urql-introspection": "3.0.1"
   },
   "dependencies": {
     "graphql": "16.11.0"
