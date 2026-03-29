@@ -42,7 +42,7 @@
     "@graphql-codegen/typescript-operations": "3.0.4",
     "@graphql-codegen/typescript-vue-urql": "2.3.6",
     "@graphql-codegen/urql-introspection": "2.2.1",
-    "@nuxt/module-builder": "^0.4.0",
+    "@nuxt/module-builder": "^1.0.0",
     "@nuxt/schema": "^3.0.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "eslint": "^8.26.0",
